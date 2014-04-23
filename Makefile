@@ -44,4 +44,4 @@ kernel.elf: $(OBJECTS)
 	$(AS) $(ASFLAGS) $< -o $@
 
 clean:
-	rm -f *.o *.iso bochslog.txt iso/boot/kernel.elf
+	rm -f *.o *.iso bochslog.txt iso/boot/kernel.elf kernel.elf copy.txt
