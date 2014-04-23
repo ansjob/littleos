@@ -21,3 +21,10 @@
 *.i*86
 *.x86_64
 *.hex
+
+#iso
+minios.iso
+
+#logs
+snapshot.txt
+bochslog.txt
